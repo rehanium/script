@@ -1,16 +1,6 @@
 mkdir ~/derpfest
 cd ~/derpfest
 rm -rfv .repo/local_manifests
-
-# Fix Hals
-echo "Fixing Hals..."
-rm -rfv hardware/qcom-caf/msm8996/audio
-rm -rfv hardware/qcom-caf/msm8996/display
-rm -rfv hardware/qcom-caf/msm8996/media
-rm -rfv vendor/qcom/opensource/display-commonsys-intf
-rm -rfv hardware/qcom-caf/wlan
-
-
 rm -rfv device/qcom/sepolicy-legacy-um
 rm -rfv system/bt
 
