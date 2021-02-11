@@ -25,11 +25,11 @@ echo "Removing Toolchain..."
 rm -rf prebuilts/clang/host/linux-x86/clang-r399163b
 
 echo "Clonig tree..."
-git clone https://github.com/zhantech/android_device_xiaomi_santoni.git -b nad-11 device/xiaomi/santoni
+git clone https://github.com/Jabiyeff/device-santoni.git -b crDroid7-staging device/xiaomi/santoni
 echo "Clonig kernel..."
-git clone https://github.com/zeta96/L_check_msm-4.9.git -b wip kernel/xiaomi/msm8937
+git clone https://github.com/Jabiyeff/msm-4.9-santoni-kud.git -b 11.0 kernel/xiaomi/msm8937
 echo "Cloning vendor..."
-git clone https://github.com/zhantech/vendor_xiaomi_santoni.git -b nad-11 vendor/xiaomi/
+git clone https://github.com/Jabiyeff/vendor-santoni.git -b 11.0 vendor/xiaomi/
 
 echo "Cloning toolchain..."
 git clone https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6875598 --depth=1 prebuilts/clang/host/linux-x86/clang-r399163b
