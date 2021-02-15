@@ -24,12 +24,12 @@ rm -rf vendor/qcom/opensource/power
 echo "Removing Toolchain..."
 rm -rf prebuilts/clang/host/linux-x86/clang-r399163b
 
-echo "Clonig tree..."
-git clone https://github.com/Jabiyeff/device-santoni.git -b crDroid7-staging device/xiaomi/santoni
+echo "Clonig Device Tree..."
+git clone https://github.com/Jabiyeff-Project/device-santoni -b 11.0 device/xiaomi/santoni
 echo "Clonig kernel..."
-git clone https://github.com/Jabiyeff/msm-4.9-santoni-kud.git -b 11.0 kernel/xiaomi/msm8937
+git clone https://github.com/Jabiyeff-Project/kernel-santoni -b 11.0 kernel/xiaomi/msm8937
 echo "Cloning vendor..."
-git clone https://github.com/Jabiyeff/vendor-santoni.git -b 11.0 vendor/xiaomi/
+git clone https://github.com/Jabiyeff-Project/vendor-santoni -b 11.0 vendor/xiaomi/
 
 echo "Cloning toolchain..."
 git clone https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6875598 --depth=1 prebuilts/clang/host/linux-x86/clang-r399163b
