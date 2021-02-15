@@ -48,7 +48,7 @@ git clone https://github.com/Jabiyeff/android_hardware_qcom_audio -b lineage-18.
 git clone https://github.com/Jabiyeff/android_hardware_qcom_display -b caf-msm8996-r hardware/qcom-caf/msm8996/display
 git clone https://github.com/Jabiyeff/android_hardware_qcom_media -b caf-msm8996-r hardware/qcom-caf/msm8996/media
 git clone https://github.com/Jabiyeff/android_hardware_qcom_display -b R-commonsys-intf vendor/qcom/opensource/display-commonsys-intf
-git clone https://github.com/Jabiyeff/android_hardware_qcom-caf_wlan -b LA.UM.9.6.2.r1 hardware/qcom-caf/wlan
+git clone https://github.com/Jabiyeff/android_hardware_qcom-caf_wlan -b lineage-18.0-caf hardware/qcom-caf/wlan
 
 echo "cloning sepolicy from lineage..."
 rm -rvf device/qcom/sepolicy-legacy-um
